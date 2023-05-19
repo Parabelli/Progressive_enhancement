@@ -1,0 +1,102 @@
+body {
+  font-size: 1.2rem;
+  background: -webkit-linear-gradient(
+    40deg,
+    rgb(255, 255, 255),
+    rgb(252, 255, 233)
+  );
+  background: linear-gradient(40deg, rgb(255, 255, 255), rgb(252, 255, 233));
+
+  background-image: url(white-painted-wall-texture-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+header > h1 {
+  background-color: antiquewhite;
+  max-width: 50%;
+}
+q,
+blockquote {
+  width: 50%;
+  margin-left: 15%;
+  font-size: 160%;
+  background-color: rgb(207, 205, 205, 0.5);
+  border-left: solid 3px firebrick;
+  padding-left: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-style: italic;
+}
+.good,
+.bad {
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+.farmer {
+  border-left: solid black 3px;
+}
+.villager {
+  border-left: solid burlywood 3px;
+}
+li:first-child {
+  background-image: url(bien.png);
+  list-style: none;
+  background-repeat: no-repeat;
+  padding: 15px;
+  padding-left: 20%;
+}
+li:nth-child(2) {
+  background-image: url(mal.png);
+  list-style: none;
+  background-repeat: no-repeat;
+  padding: 15px;
+  padding-left: 15%;
+}
+li:nth-child(3) {
+  background-image: url(chat.png);
+  list-style: none;
+  background-repeat: no-repeat;
+  padding: 15px;
+  padding-left: 15%;
+}
+li:nth-child(4) {
+  background-repeat: no-repeat;
+  list-style: none;
+  padding: 15px;
+  padding-left: 15%;
+}
+#first {
+  font-weight: bolder;
+}
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.contenu {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.text1 {
+  width: 40%;
+}
+
+.text2 {
+  background-color: red;
+}
+.image1 {
+  width: 45%;
+}
+figure {
+  width: 90%;
+}
